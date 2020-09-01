@@ -4,8 +4,15 @@ html {
     padding: 0;
 }
 
+body {
+    height: 100vh;
+    overflow-x: hidden;
+}
 
-/* .water {
-    background: url(../media/water.jpeg);
+.water {
+    background: url(../media/water.jpeg) #495B71;
     background-size: cover;
-} */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: normal;
+}
