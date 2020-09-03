@@ -13,7 +13,12 @@ body {
 .water {
     background: url(../media/water.jpeg) #495B71;
     background-size: cover;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     background-position: center;
-    background-blend-mode: normal;
+    /* background-blend-mode: normal; */
+}
+
+section.describe,
+section.testimony {
+    background: #F8F9FA;
 }
